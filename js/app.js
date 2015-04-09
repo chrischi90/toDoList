@@ -1,5 +1,5 @@
 //Problem: User interaction doesn't provide desired results.
-//Solution: Add interactivty so the user can manage daily tasks.
+//Solution: Add interactivity so the user can manage daily tasks.
 
 var taskInput = document.getElementById("new-task"); //new-task
 var addButton = document.getElementsByTagName("button")[0]; //first button
@@ -27,7 +27,6 @@ var createNewTaskElement = function(taskString) {
   
   checkBox.type = "checkbox";
   editInput.type = "text";
-  
   editButton.innerText = "Edit";
   editButton.className = "edit";
   deleteButton.innerText = "Delete";
